@@ -1,0 +1,94 @@
+:root {
+  --dark-violet: #2a0145;
+  --white-text: #ffffff;
+}
+
+/* Force dark violet background everywhere */
+html, body, #__next, .main-content {
+  background-color: var(--dark-violet) !important;
+  color: var(--white-text) !important;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+/* Ensure Next.js root container takes full height */
+#__next, .main-content {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: inherit;
+}
+
+
+
+/* Update text colors for better contrast */
+h1, h3, p, label, button {
+  color: #ffffff !important; /* Ensure readability */
+}
+
+/* Buttons */
+button {
+  padding: 10px 18px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+/* Quantum Gates */
+.gate {
+  padding: 6px 12px;
+  margin: 5px;
+  border-radius: 6px;
+  cursor: grab;
+  text-align: center;
+  font-weight: bold;
+  background-color: #4a90e2;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Drop Cells */
+.drop-cell {
+  background-color: #3d206b; /* Darker violet */
+  border: 1px dashed #aaa;
+}
+
+.drop-cell:hover {
+  background-color: #522d94;
+}
+
+/* Explanation Box */
+.explanation-box {
+  background-color: #3d206b !important; /* Dark violet */
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* OpenQASM Display */
+.openqasm-box {
+  background-color: #48A6A7; /* Darker violet */
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgb(0, 106, 113);
+}
+
+/* Probability Chart & Q-Sphere */
+.probability-chart-container, .qsphere-container {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #ccc;
+  padding: 12px;
+  border-radius: 6px;
+}

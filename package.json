@@ -1,0 +1,27 @@
+{
+    "name": "quantum_computing",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@react-three/drei": "^9.105.6",
+        "@react-three/fiber": "^8.16.8",
+        "mathjs": "^14.3.1",
+        "next": "^15.2.4",
+        "react": "^18.3.1",
+        "react-dnd": "^16.0.1",
+        "react-dnd-html5-backend": "^16.0.1",
+        "react-dom": "^18.3.1",
+        "recharts": "^2.15.1",
+        "three": "^0.174.0"
+    },
+    "devDependencies": {
+        "eslint": "^8",
+        "eslint-config-next": "14.2.3"
+    }
+}
