@@ -27,4 +27,4 @@ npm run dev
 
 ## Deployment
 - This project is deployed on **Vercel**!
-- Live Demo:``` Quantum Circuit Composer ```
+- Live Demo:``` https://quantum-circuit-composer-eta.vercel.app/ ```
